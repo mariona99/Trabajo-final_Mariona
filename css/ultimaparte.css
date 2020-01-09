@@ -1,0 +1,75 @@
+.ultimaparte {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Girassol", cursive;
+  color: brown;
+  height: 750px;
+  background-color:	rgb(173, 216, 230);
+}
+
+@media (max-width: 700px) {
+  .ultimaparte{
+    display: block;
+  }
+}
+.parteuno{
+  margin-left: 5%;
+  position: absolute;
+}
+.partedos{
+  position: relative;
+  top: 60px;
+}
+
+@media (max-width: 700px){
+  .partedos{
+    display: none;
+  }
+}
+
+.item1-parteuno {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 700px) {
+  .item1-parteuno{
+    width: auto;
+    justify-content: center;
+  }
+}
+
+.item2-parteuno {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 700px) {
+  .item2-parteuno{
+    width: auto;
+    justify-content: center;
+  }
+}
+.item3-parteuno {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (max-width: 700px) {
+  .item3-parteuno{
+    width: auto;
+    justify-content: center;
+  }
+}
+
+.partedos{
+  position: relative;
+}
+.photo {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}

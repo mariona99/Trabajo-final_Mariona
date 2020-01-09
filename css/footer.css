@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  color: black;
+  height: auto;
+  background-color: cornflowerblue;
+  font-size: 40px;
+  font-family: "Girassol", cursive;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

@@ -1,0 +1,36 @@
+
+/* … */
+.terceraparte{
+  display: flex;
+  height: 600px;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .terceraparte{
+    display: block;
+    justify-content: center;
+    height: 950px;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+.imagen{
+  border: 5px solid brown;
+  height: 510px;
+  width: 560px;
+}
+
+.primerogrupotres{
+  background-color: white;
+  height: 300px;
+  padding: 8%; 
+}
+
+.segundogrupotres{
+  background-color: white;
+  height: 300px;
+  text-align: center;
+  padding-top: 5%;
+  width: 50%;
+}

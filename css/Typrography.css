@@ -1,0 +1,83 @@
+/* Base */
+@import url("https://fonts.googleapis.com/css?family=Girassol&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+body{
+  font-family: 'Amatic SC', cursive;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Girassol", cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    color: white;
+    margin: auto;
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+  }
+  
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Girassol", cursive;
+  color: brown;
+}
+  h4 {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  h5{
+    color: black;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;  
+  }
+
+  p{
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    font-family: 'Amatic SC', cursive;  
+  }
+
+  p:hover{
+    transform: scaleY(2);
+    background-color: white;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Amatic SC', cursive;  
+    color: black;
+  }
+
+  .item-text{
+  font-size: 30px;
+  font-family: "Girassol", cursive;
+  color: black;
+  text-align: left;
+  margin-left: 3%;
+  }
+
+  .uno-dos {
+    font-size: 30px;
+  font-family: "Girassol", cursive;
+  color: black;
+  }
+/* … */

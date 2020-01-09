@@ -1,0 +1,9 @@
+
+.segundaparte {
+  background-image: url(../img/primeraparte.jpg);
+  background-size: cover;
+  height: 500px;
+  opacity: 80%;
+}
+
+/* … */
